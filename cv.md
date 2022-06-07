@@ -64,7 +64,7 @@ alert( random(min, max) );
 ## Education
 * Courses on the educational platform Stepik:
     1. Web Development for Beginners: HTML and CSS (100% + Certificate)
-	  2. JavaScript for Beginners (100% + Certificate)
+		2. JavaScript for Beginners (100% + Certificate)
 * Learn.javascript (in the process)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in the process)
 
