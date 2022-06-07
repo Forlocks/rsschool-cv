@@ -1,5 +1,3 @@
-![Photo]("C:\Users\Acer E15\Pictures\ФОТОГРАФИИ\МОЁ\Я\IMG_20200928_232743.jpg")
-
 # Alexey Shelukhin
 
 ## Contact information
@@ -14,6 +12,7 @@
 I am 20 years old, study at the Saint-Petersburg State University of Aerospace Instrumentation in the direction of "Laser equipment and laser technologies". At the beginning of his second year at the university, he became interested in the profession of a front-end developer, after which he began to take various free courses on the study of HTML, CSS and JS. I hope to gain more knowledge from the courses at RS School to become a junior front-end developer as a result.
 
 ## Skills
+* Markdown
 * HTML
 * CSS (+Bootstrap)
 * JS (basics)
