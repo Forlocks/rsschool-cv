@@ -1,3 +1,35 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: Kdam;
+	src: url("assets/fonts/Roboto.ttf");
+	font-size: 40px;
+}
+
+@font-face {
+	font-family: Abel;
+	src: url("assets/fonts/Roboto.ttf");
+	font-size: 24px;
+}
+
 html {
 	scroll-behavior: smooth;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-family: Abel;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Kdam important!;
 }
