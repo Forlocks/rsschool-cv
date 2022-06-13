@@ -1,10 +1,7 @@
 # Alexey Shelukhin
 
 ## Contact information
-* **Phone number:** +79602865676
 * **E-mail:** sheluhen@mail.ru
-* **VKontakte:** @2forlock0
-* **Telegram:** @forlocks
 * **GitHub:** https://github.com/Forlocks
 * **Nickname on the discord-server RS School:** Forlock (@Forlocks)
 
@@ -61,7 +58,11 @@ return result;
 alert( random(min, max) );
 ```
 
+## Projects
+* https://Forlocks.github.io/rsschool-cv/
+
 ## Education
+* St. Petersburg State University of Aerospace Instrumentation - Laser technique and laser technology (in the process, second course)
 * Courses on the educational platform Stepik:
     * Web Development for Beginners: HTML and CSS (100% + Certificate)
     * JavaScript for Beginners (100% + Certificate)
