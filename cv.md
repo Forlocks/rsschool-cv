@@ -3,7 +3,7 @@
 ## Contact information
 * **E-mail:** sheluhen@mail.ru
 * **GitHub:** https://github.com/Forlocks
-* **Nickname on the discord-server RS School:** Forlock (@Forlocks)
+* **On the discord-server RS School:** Forlock (@Forlocks)
 
 ## About me
 I am 20 years old, study at the Saint-Petersburg State University of Aerospace Instrumentation in the direction of "Laser equipment and laser technologies". At the beginning of his second year at the university, he became interested in the profession of a front-end developer, after which he began to take various free courses on the study of HTML, CSS and JS. I hope to gain more knowledge from the courses at RS School to become a junior front-end developer as a result.
@@ -60,6 +60,7 @@ alert( random(min, max) );
 
 ## Projects
 * https://Forlocks.github.io/rsschool-cv/
+* Next projects coming soon...
 
 ## Education
 * St. Petersburg State University of Aerospace Instrumentation - Laser technique and laser technology (in the process, second course)
@@ -69,6 +70,6 @@ alert( random(min, max) );
 * Learn.javascript (in the process)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in the process)
 
-## Proficiency in English and other languages
+## Languages
 * **English:** А2 (Elementary)
 * **Russian:** 100%

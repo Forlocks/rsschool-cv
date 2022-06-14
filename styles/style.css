@@ -4,13 +4,13 @@
 
 @font-face {
 	font-family: Kdam;
-	src: url("assets/fonts/Roboto.ttf");
+	src: url("../assets/fonts/KdamThmorPro-Regular.ttf");
 	font-size: 40px;
 }
 
 @font-face {
 	font-family: Abel;
-	src: url("assets/fonts/Roboto.ttf");
+	src: url("../assets/fonts/Abel-Regular.ttf");
 	font-size: 24px;
 }
 
@@ -22,6 +22,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	min-width: 1000px;
 	font-family: Abel;
 }
 
@@ -31,5 +32,340 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Kdam important!;
+	font-family: Kdam;
+}
+
+header {
+	position: fixed;
+  display: block;
+  width: 100%;
+	height: 75px;
+  background: #d84400;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+	border: 5px solid #b30d0d;
+	border-top: 0;
+}
+
+footer {
+  display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+  width: 100%;
+	height: 150px;
+  background: #d84400;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	border: 5px solid #b30d0d;
+	border-bottom: 0;
+}
+
+nav {
+	display: block;
+	position: relative;
+	top: 16px;
+}
+
+
+button {
+		display: inline-block;
+		margin: 0;
+		text-align: center;
+		font-family: Kdam;
+    font-size: 20px;
+		background-color: #ffffff;
+		border-radius: 50px;
+    border: 5px solid rgba(255, 123, 0, 0.65);
+    color: #ff7b00;
+}
+
+.help-block {
+	display: block;
+	height: 75px;
+	background: #ffffff;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.top {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 251px;
+	background: #ffffff;
+}
+
+.photo {
+	display: inline-block;
+	position: relative;
+	top: 16px;
+	border-radius: 150px;
+  border: 10px solid #ff7b00;
+}
+
+.name {
+	display: inline-block;
+	position: relative;
+	height: 101px;
+	top: 75px;
+	font-size: 101px;
+	color: #ff7b00;
+}
+
+.contacts {
+	display: flex;
+	height: 300px;
+	background: #ffffff;
+	margin-bottom: 5px;
+}
+
+.contacts-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 300px;
+	font-size: 50px;
+	color: #ffffff;
+	border-radius: 100px;
+	background: #ff7b00;
+	border: 5px solid #d84400;
+}
+
+.contacts-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 300px;
+	font-size: 25px;
+	color: #ffffff;
+	border-radius: 100px;
+	background: #ff7b00;
+	border: 5px solid #d84400;
+}
+
+.about {
+	display: flex;
+	height: 300px;
+	background: #ffffff;
+	margin-bottom: 5px;
+}
+
+.about-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 300px;
+	font-size: 50px;
+	color: #ffffff;
+	border-radius: 100px;
+	background: #ff7b00;
+	border: 5px solid #d84400;
+}
+
+.about-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 300px;
+	font-size: 25px;
+	color: #ffffff;
+	border-radius: 100px;
+	background: #ff7b00;
+	border: 5px solid #d84400;
+}
+
+.skills {
+	display: flex;
+	height: 300px;
+	background: #ffffff;
+	margin-bottom: 5px;
+}
+
+.skills-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 300px;
+	font-size: 50px;
+	color: #ffffff;
+	border-radius: 100px;
+	background: #ff7b00;
+	border: 5px solid #d84400;
+}
+
+.skills-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 300px;
+	font-size: 25px;
+	color: #ffffff;
+	border-radius: 100px;
+	background: #ff7b00;
+	border: 5px solid #d84400;
+}
+
+.code {
+	display: flex;
+	height: 700px;
+	background: #ffffff;
+	margin-bottom: 5px;
+}
+
+.code-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 700px;
+	font-size: 50px;
+	color: #ffffff;
+	border-radius: 100px;
+	background: #ff7b00;
+	border: 5px solid #d84400;
+}
+
+.code-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 700px;
+	font-size: 17px;
+	color: #ffffff;
+	border-radius: 100px;
+	background: #ff7b00;
+	border: 5px solid #d84400;
+}
+
+.projects {
+	display: flex;
+	height: 300px;
+	background: #ffffff;
+	margin-bottom: 5px;
+}
+
+.projects-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 300px;
+	font-size: 50px;
+	color: #ffffff;
+	border-radius: 100px;
+	background: #ff7b00;
+	border: 5px solid #d84400;
+}
+
+.projects-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 300px;
+	font-size: 25px;
+	color: #ffffff;
+	border-radius: 100px;
+	background: #ff7b00;
+	border: 5px solid #d84400;
+}
+
+.education {
+	display: flex;
+	height: 300px;
+	background: #ffffff;
+	margin-bottom: 5px;
+}
+
+.education-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 300px;
+	font-size: 50px;
+	color: #ffffff;
+	border-radius: 100px;
+	background: #ff7b00;
+	border: 5px solid #d84400;
+}
+
+.education-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 300px;
+	font-size: 25px;
+	color: #ffffff;
+	border-radius: 100px;
+	background: #ff7b00;
+	border: 5px solid #d84400;
+}
+
+.languages {
+	display: flex;
+	height: 300px;
+	background: #ffffff;
+	margin-bottom: 5px;
+}
+
+.languages-left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 300px;
+	font-size: 50px;
+	color: #ffffff;
+	border-radius: 100px;
+	background: #ff7b00;
+	border: 5px solid #d84400;
+}
+
+.languages-right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 300px;
+	font-size: 25px;
+	color: #ffffff;
+	border-radius: 100px;
+	background: #ff7b00;
+	border: 5px solid #d84400;
+}
+
+.logo {
+	display: inline-block;
+}
+
+.year {
+	display: inline-block;
+	font-size: 25px;
+	height: 26px;
+	color: #ffffff;
+}
+
+.gh {
+	display: inline-block;
+	font-size: 25px;
+	height: 26px;
+	color: #ffffff;
 }
