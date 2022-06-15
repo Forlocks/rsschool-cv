@@ -12,25 +12,39 @@
 		<nav>
 			<ul class="nav">
 				<li style="display: inline-block;">
-					<button>Contact information</button>
+					<form action="#contacts">
+						<button>Contact information</button>
+					</form>
 				</li>
 				<li style="display: inline-block;">
-					<button>About me</button>
+					<form action="#about">
+						<button>About me</button>
+					</form>
 				</li>
 				<li style="display: inline-block;">
-					<button>Skills</button>
+					<form action="#skills">
+						<button>Skills</button>
+					</form>
 				</li>
 				<li style="display: inline-block;">
-					<button>Code example</button>
+					<form action="#code">
+						<button>Code example</button>
+					</form>
 				</li>
 				<li style="display: inline-block;">
-					<button>Projects</button>
+					<form action="#projects">
+						<button>Projects</button>
+					</form>
 				</li>
 				<li style="display: inline-block;">
-					<button>Education</button>
+					<form action="#education">
+						<button>Education</button>
+					</form>
 				</li>
 				<li style="display: inline-block;">
-					<button>Languages</button>
+					<form action="#languages">
+						<button>Languages</button>
+					</form>
 				</li>
 			</ul>
 		</nav>
@@ -38,32 +52,32 @@
 	<main>
 		<div class="help-block"></div>
 		<section class="top">
-			<img class="photo" src="../rsschool-cv/assets/images/photo.png" title="My photo" alt="My photo" width="219" height="219">
+			<img class="photo" src="../rsschool-cv/assets/images/IMG_20200928_232743.jpg" title="My photo" alt="My photo" width="219" height="219">
 			<h1 class="name">Alexey Shelukhin</h1>
 		</section>
-		<section class="contacts">
+		<section class="contacts" id="contacts">
 			<div class="contacts-left">
-				<h3>Contact information</h3>
+				<h2>Contact information</h2>
 			</div>
 			<div class="contacts-right">
 				<ul>
 					<li><strong>E-mail:</strong> sheluhen@mail.ru</li>
-					<li><strong>GitHub:</strong> https://github.com/Forlocks</li>
+					<li><strong>GitHub:</strong> <a href="https://github.com/Forlocks">https://github.com/Forlocks</a></li>
 					<li><strong>On the Discord-server RS School:</strong> Forlock (@Forlocks)</li>
 				</ul>
 			</div>
 		</section>
-		<section class="about">
+		<section class="about" id="about">
 			<div class="about-left">
-				<h3>About me</h3>
+				<h2>About me</h2>
 			</div>
 			<div class="about-right">
-				<p style="display: block; width: 500px; text-align: justify;">I am 20 years old, study at the Saint-Petersburg State University of Aerospace Instrumentation in the direction of "Laser equipment and laser technologies". At the beginning of his second year at the university, he became interested in the profession of a front-end developer, after which he began to take various free courses on the study of HTML, CSS and JS. I hope to gain more knowledge from the courses at RS School to become a junior front-end developer as a result.</p>
+				<p style="display: block; width: 600px; text-align: justify;">I am 20 years old, study at the Saint-Petersburg State University of Aerospace Instrumentation in the direction of "Laser equipment and laser technologies". At the beginning of his second year at the university, he became interested in the profession of a front-end developer, after which he began to take various free courses on the study of HTML, CSS and JS. I hope to gain more knowledge from the courses at RS School to become a junior front-end developer as a result.</p>
 			</div>
 		</section>
-		<section class="skills">
+		<section class="skills" id="skills">
 			<div class="skills-left">
-				<h3>Skills</h3>
+				<h2>Skills</h2>
 			</div>
 			<div class="skills-right">
 				<ul>
@@ -76,12 +90,12 @@
 				</ul>
 			</div>
 		</section>
-		<section class="code">
+		<section class="code" id="code">
 			<div class="code-left">
-				<h3>Code example</h3>
+				<h2>Code example</h2>
 			</div>
 			<div class="code-right">
-				<pre><code>//Generate a random floating point number from min to max (but not including max).
+				<pre style="line-height: 1; width: 600px;"><code>//Generate a random floating point number from min to max (but not including max).
 
 "use strict";
 
@@ -121,20 +135,20 @@ return result;
 alert( random(min, max) );</code></pre>
 			</div>
 		</section>
-		<section class="projects">
+		<section class="projects" id="projects">
 			<div class="projects-left">
-				<h3>Projects</h3>
+				<h2>Projects</h2>
 			</div>
 			<div class="projects-right">
 				<ul>
-					<li>https://Forlocks.github.io/rsschool-cv/</li>
+					<li><a href="https://Forlocks.github.io/rsschool-cv/">https://Forlocks.github.io/rsschool-cv/</a></li>
 					<li>Next projects coming soon...</li>
 				</ul>
 			</div>
 		</section>
-		<section class="education">
+		<section class="education" id="education">
 			<div class="education-left">
-				<h3>Education</h3>
+				<h2>Education</h2>
 			</div>
 			<div class="education-right">
 				<ul>
@@ -150,9 +164,9 @@ alert( random(min, max) );</code></pre>
 				</ul>
 			</div>
 		</section>
-		<section class="languages">
+		<section class="languages" id="languages">
 			<div class="languages-left">
-				<h3>Languages</h3>
+				<h2>Languages</h2>
 			</div>
 			<div class="languages-right">
 				<ul>
@@ -163,9 +177,9 @@ alert( random(min, max) );</code></pre>
 		</section>
 	</main>
 	<footer>
-		<img class="logo" src="../rsschool-cv/assets/images/rs_school_js.svg" title="RS School" alt="RS School" width="125" height="70">
+		<a href="https://rs.school/js/"><img class="logo" src="../rsschool-cv/assets/images/rs_school_js.svg" title="RS School" alt="RS School" width="125" height="70"></a>
 		<p class="year">Ⓒ 2022 by Alexey Shelukhin</p>
-		<p class="gh">https://github.com/Forlocks</p>
+		<p class="gh"><a href="https://github.com/Forlocks">GH profile</a></p>
 	</footer>
 </body>
 </html>
