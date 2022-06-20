@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Alexey Shelukhin CV</title>
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="icon" href="assets/icons/favicon.ico">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul class="nav">
+				<li style="display: inline-block;">
+					<form action="#contacts">
+						<button>Contact information</button>
+					</form>
+				</li>
+				<li style="display: inline-block;">
+					<form action="#about">
+						<button>About me</button>
+					</form>
+				</li>
+				<li style="display: inline-block;">
+					<form action="#skills">
+						<button>Skills</button>
+					</form>
+				</li>
+				<li style="display: inline-block;">
+					<form action="#code">
+						<button>Code example</button>
+					</form>
+				</li>
+				<li style="display: inline-block;">
+					<form action="#projects">
+						<button>Projects</button>
+					</form>
+				</li>
+				<li style="display: inline-block;">
+					<form action="#education">
+						<button>Education</button>
+					</form>
+				</li>
+				<li style="display: inline-block;">
+					<form action="#languages">
+						<button>Languages</button>
+					</form>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<div class="help-block"></div>
+		<section class="top">
+			<img class="photo" src="../rsschool-cv/assets/images/IMG_20200928_232743.jpg" title="My photo" alt="My photo" width="219" height="219">
+			<h1 class="name">Alexey Shelukhin</h1>
+		</section>
+		<section class="contacts" id="contacts">
+			<div class="contacts-left">
+				<h2>Contact information</h2>
+			</div>
+			<div class="contacts-right">
+				<ul>
+					<li><strong>E-mail:</strong> sheluhen@mail.ru</li>
+					<li><strong>GitHub:</strong> <a href="https://github.com/Forlocks">https://github.com/Forlocks</a></li>
+					<li><strong>On the Discord-server RS School:</strong> Forlock (@Forlocks)</li>
+				</ul>
+			</div>
+		</section>
+		<section class="about" id="about">
+			<div class="about-left">
+				<h2>About me</h2>
+			</div>
+			<div class="about-right">
+				<p style="display: block; width: 600px; text-align: justify;">I am 20 years old, study at the Saint-Petersburg State University of Aerospace Instrumentation in the direction of "Laser equipment and laser technologies". At the beginning of his second year at the university, he became interested in the profession of a front-end developer, after which he began to take various free courses on the study of HTML, CSS and JS. I hope to gain more knowledge from the courses at RS School to become a junior front-end developer as a result.</p>
+			</div>
+		</section>
+		<section class="skills" id="skills">
+			<div class="skills-left">
+				<h2>Skills</h2>
+			</div>
+			<div class="skills-right">
+				<ul>
+					<li>Markdown</li>
+					<li>HTML</li>
+					<li>CSS (+Bootstrap)</li>
+					<li>JS (basics)</li>
+					<li>Git and GitHub</li>
+					<li>VScode</li>
+				</ul>
+			</div>
+		</section>
+		<section class="code" id="code">
+			<div class="code-left">
+				<h2>Code example</h2>
+			</div>
+			<div class="code-right">
+				<pre style="line-height: 1; width: 600px;"><code>//Generate a random floating point number from min to max (but not including max).
+
+"use strict";
+
+let userNumber, firstNumber, secondNumber, min, max, difference, lucky, randomNumber, result;
+
+function readNumber() {
+userNumber = prompt('Enter number', '');
+
+while (userNumber === "" || userNumber === null || Object.is( parseFloat(userNumber), NaN)) {
+userNumber = prompt('Enter number', '');
+}
+
+return parseFloat(userNumber);
+}
+
+firstNumber = readNumber();
+secondNumber = readNumber();
+
+max = Math.max(firstNumber, secondNumber);
+min = Math.min(firstNumber, secondNumber);
+
+function random(min, max) {
+if (min === max) {
+alert('Error');
+
+return NaN;
+}
+
+lucky = Math.random();
+difference = max - min;
+randomNumber = difference * lucky;
+result = min + randomNumber;
+
+return result;
+}
+
+alert( random(min, max) );</code></pre>
+			</div>
+		</section>
+		<section class="projects" id="projects">
+			<div class="projects-left">
+				<h2>Projects</h2>
+			</div>
+			<div class="projects-right">
+				<ul>
+					<li><a href="https://Forlocks.github.io/rsschool-cv/">https://Forlocks.github.io/rsschool-cv/</a></li>
+					<li>Next projects coming soon...</li>
+				</ul>
+			</div>
+		</section>
+		<section class="education" id="education">
+			<div class="education-left">
+				<h2>Education</h2>
+			</div>
+			<div class="education-right">
+				<ul>
+					<li>St. Petersburg State University of Aerospace Instrumentation - Laser technique and laser technology (in the process, second course)</li>
+					<li>Courses on the educational platform Stepik:
+						<ul>
+							<li>Web Development for Beginners: HTML and CSS (100% + Certificate)</li>
+							<li>JavaScript for Beginners (100% + Certificate)</li>
+						</ul>
+					</li>
+					<li>Learn.javascript (in the process)</li>
+					<li>RS Schools Course «JavaScript/Front-end. Stage 0» (in the process)</li>
+				</ul>
+			</div>
+		</section>
+		<section class="languages" id="languages">
+			<div class="languages-left">
+				<h2>Languages</h2>
+			</div>
+			<div class="languages-right">
+				<ul>
+					<li><strong>English:</strong> А2 (Elementary)</li>
+					<li><strong>Russian:</strong> 100%</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<a href="https://rs.school/js/"><img class="logo" src="../rsschool-cv/assets/images/rs_school_js.svg" title="RS School" alt="RS School" width="125" height="70"></a>
+		<p class="year">Ⓒ 2022 by Alexey Shelukhin</p>
+		<p class="gh"><a href="https://github.com/Forlocks">GH profile</a></p>
+	</footer>
+</body>
+</html>
